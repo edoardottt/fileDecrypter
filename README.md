@@ -1,5 +1,5 @@
-# fileCripter
-Simple C file cripter 
+# fileCripter :lock:
+0010101010101001010 ---- Simple C file cripter ---- 1010100101010101010001
 
 ---------------------------------------------
 DESCRIPTION :mega:
