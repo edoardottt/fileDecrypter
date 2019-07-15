@@ -12,7 +12,7 @@ bool directory;
 main(int argc, char *argv[])
 {
   int i;
-  if (argc != 4) /* il programma non viene avviato con gli argomenti richiesti */
+  if (argc != 4) /* Bad Input */
     {
       fprintf(stderr,"Usage %s file sed_script\n",argv[0]);exit(10);
     }
@@ -22,7 +22,7 @@ main(int argc, char *argv[])
   if ((S_ISDIR(fileStat.st_mode))) {directory=true;} else {directory=false;}        //check if it's a folder
   if ((fileStat.st_mode & S_IRUSR)>0)  {r=true;} else {r=false;}                    //check if it's accessible on reading
   if ((fileStat.st_mode & S_IWUSR)>0) {w=true;} else {w=false;}                     //check if it's accessible on writing
-  /* il file 1 non è accessibile */
+  /* File1 not accessible */
   if (!((!(directory))&& r && w))
     { char *re;
       if (r==false) {re="read from"; }
@@ -147,7 +147,7 @@ main(int argc, char *argv[])
        offuscato[indice_offuscato+1]=0;
        offuscato[indice_offuscato+2]=0;
        offuscato[indice_offuscato+3]=0;
-       //scrittura char in byte
+       //characters writing as bytes
        char character=sedb[indice_sed];
        offuscato[indice_offuscato+4]=!!((character<<0) & 0x80);
        offuscato[indice_offuscato+5]=!!((character<<1) & 0x80);
@@ -157,7 +157,7 @@ main(int argc, char *argv[])
        offuscato[indice_offuscato+9]=!!((character<<5) & 0x80);
        offuscato[indice_offuscato+10]=!!((character<<6) & 0x80);
        offuscato[indice_offuscato+11]=!!((character<<7) & 0x80);
-       //ultimi quattro bit per offuscamento
+       //last 4 bits for obfuscation
        offuscato[indice_offuscato+12]=0;
        offuscato[indice_offuscato+13]=0;
        offuscato[indice_offuscato+14]=0;
