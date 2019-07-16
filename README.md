@@ -1,10 +1,10 @@
-# fileCripter :lock:
-0010101010101001010 ---- Simple C file cripter ---- 1010100101010101010001
+# fileEncrypter :lock:
+0010101010101001010 ---- Simple C file encrypter ---- 1010100101010101010001
 
 ---------------------------------------------
 DESCRIPTION :mega:
 ---------------------------------------------
-fileCripter is able to read and edit binary files with a certain format.
+fileEncrypter is able to read and edit binary files with a certain format.
 
 More in detail, the program takes as input 3 arguments: the name of a file fin, the name of a file fout and a string s.
 The file fin is a binary file of an obfuscated text, in which, for each memorized character, a 16 bit number is used, composed as follows: 0xy016, where xy16 is the ASCII code of the character.
@@ -43,9 +43,9 @@ where e is the system string that explains the error and s is the system call th
 DOWNLOAD 📡
 -------------------------------------------------
 
-GIT command on prompt: git -clone https://github.com/edoardottt/fileCripter.git
+GIT command on prompt: git -clone https://github.com/edoardottt/fileEncrypter.git
 
-Download by Browser on: https://github.com/edoardottt/fileCripter
+Download by Browser on: https://github.com/edoardottt/fileEncrypter
 
 --------------------------
 If you liked it drop a :star:
