@@ -1,3 +1,5 @@
+**THIS REPO IS NO LONGER MAINTAINED**
+
 # fileDecrypter :lock:
 0010101010101001010 ---- Simple C file decrypter ---- 1010100101010101010001
 
