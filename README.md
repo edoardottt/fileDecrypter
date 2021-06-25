@@ -1,18 +1,15 @@
-----------------------------------------------------------------------------------
-📉**THIS REPO IS NO LONGER MAINTAINED**📉
-------------------------------------------------------------------------------------
-
-
 # fileDecrypter :lock:
-0010101010101001010 ---- Simple C file decrypter ---- 1010100101010101010001
+**0010101010101001010 ---- Simple C file decrypter ---- 1010100101010101010001**
 
----------------------------------------------
+**Disclaimer**: This was a part of a University Operating System course project, not a serious decrypter. 
+
 DESCRIPTION :mega:
----------------------------------------------
+--------
+
 fileDecrypter is able to read and edit binary files with a certain format.
 
-More in detail, the program takes as input 3 arguments: the name of a file fin, the name of a file fout and a string s.
-The file fin is a binary file of an obfuscated text, in which, for each memorized character, a 16 bit number is used, composed as follows: 0xy016, where xy16 is the ASCII code of the character.
+More in detail, the program takes as input 3 arguments: the name of a file *fin*, the name of a file *fout* and a string *s*.  
+The file fin is a binary file of an obfuscated text, in which, for each memorized character, a 16 bit number is used, composed as follows: 0xy016, where xy16 is the ASCII code of the character.  
 The program must execute the command /bin/sed -e s, making sure that the standard input of this command is the content of the defluxed file (that is, removing the 4 bits to zero before and after each character).
 
 The program then takes the result of the above command (on standard output), replaces (adding 4 bits to zero before and after each character) and write the result of this re-obfuscation on fout. Any written sed on standard error is ignored.
@@ -44,20 +41,17 @@ Any other system call fails. The program ends with 100 exit status (without perf
     
 where e is the system string that explains the error and s is the system call that failed.
 
--------------------------------------------------
-DOWNLOAD 📡
--------------------------------------------------
 
-GIT command on prompt: git -clone https://github.com/edoardottt/fileDecrypter.git
+Donwload 📡
+-------
 
-Download by Browser on: https://github.com/edoardottt/fileDecrypter
+`git clone https://github.com/edoardottt/fileDecrypter.git`
 
---------------------------
+
 If you liked it drop a :star:
---------------------------
+--------
 
 https://www.edoardoottavianelli.it for contact me.
 
-
-      Edoardo Ottavianelli ©
+                                                                                Edoardo Ottavianelli
 
