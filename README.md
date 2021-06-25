@@ -29,13 +29,13 @@ The program then ends with exit status 20 (without performing any action), and w
 which explains the error and r is read from if f is not accessible for reading, or write to if it is not accessible for writing.
 
 - The file read is not well formatted: bits at 0 are missing in some positions where they should be.
-In this case, it ends with an exit status of 30, generating the output up to the wrong byte excluded and writing on standard error:
+In this case, it ends with an exit status 30, generating the output up to the wrong byte excluded and writing on standard error:
 
             Wrong format for input binary file f at byte d
     
 where d is the byte number (starting from 0) where the error occurs.
 
-- Any other system call fails. The program ends with 100 exit status (without performing any other action), and writing on standard error:
+- Any other system call fails. The program ends with exit status 100 (without performing any other action), and writing on standard error:
 
             System call s failed because of e
     
