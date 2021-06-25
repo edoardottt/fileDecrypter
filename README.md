@@ -41,8 +41,13 @@ Any other system call fails. The program ends with 100 exit status (without perf
     
 where e is the system string that explains the error and s is the system call that failed.
 
+Usage 🔧
+-------
 
-Donwload 📡
+- `gcc decrypter.c -o decrypter`
+- `./decrypter`
+
+Download 📡
 -------
 
 `git clone https://github.com/edoardottt/fileDecrypter.git`
