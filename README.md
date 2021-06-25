@@ -3,7 +3,7 @@
 
 **Disclaimer**: This was a part of a University Operating System course project, not a serious decrypter. 
 
-DESCRIPTION :mega:
+Description :mega:
 --------
 
 fileDecrypter is able to read and edit binary files with a certain format.
