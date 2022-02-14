@@ -1,7 +1,7 @@
 # fileDecrypter :lock:
 **0010101010101001010 ---- Simple C file decrypter ---- 1010100101010101010001**
 
-**Disclaimer**: This was a part of a University Operating System course project, not a serious decrypter. 
+**Disclaimer**: This was a part of a University project (Operating System course), not a serious decrypter. 
 
 Description :mega:
 --------
