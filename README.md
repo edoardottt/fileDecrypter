@@ -56,4 +56,4 @@ Download 📡
 If you liked it drop a :star:
 --------
 
-[edoardoottavianelli.it](https://www.edoardoottavianelli.it/) to contact me.
+[edoardottt.com](https://edoardottt.com/) to contact me.
